@@ -2,7 +2,7 @@ let
     sourceFn = Expression.Evaluate(
         Text.FromBinary(
             Binary.Buffer(
-                Web.Contents("https://raw.githubusercontent.com/ezabitov/PQAmoCrm/master/main.m")
+                Web.Contents("https://zabitov.ru/analitika/vigruzka-statistiki-iz-amocrm-v-excel-i-power-bi/")
             )
         ), #shared)
 in
